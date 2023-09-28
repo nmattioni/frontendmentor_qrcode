@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@500&family=Open+Sans&display=swap');
+
+body {
+    background-color: rgb(211, 211, 211);
+}
+
+.bloco {
+    display:flex;
+    justify-content: center;
+    gap: 15%;
+}
+
+.inicio {
+    margin: 8% 40%;
+}
+
+.painel {
+    display: flex;
+    justify-content:start;
+    flex-direction: column;
+    width: 300px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    align-items: center;
+    padding: 4.5% 5% 0 5%;
+}
+
+.imagem {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.blocotexto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo {
+    font-family:'Gabarito', cursive;
+    text-align: center;
+    margin: 5% 0%;
+    font-size: 26px;
+}
+
+.parag {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 13px;
+    padding: 0 1% 0 1%;
+}
